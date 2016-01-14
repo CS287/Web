@@ -1,0 +1,133 @@
+dates: ["Jan. 26", "Jan. 28", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 16",
+        "Feb. 18", "Feb. 23", "Feb. 25", "Mar. 1", "Mar. 3", "Mar. 8", "Mar. 10",
+        "Mar. 22", "Mar. 24", "Mar. 29", "Mar. 31", "Apr. 5", "Apr. 7", "Apr. 12",
+        "Apr. 14", "Apr. 19", "Apr. 21", "Apr. 26"]
+lectures:
+  - topic: Natural Language Processing
+    subtopic: Introduction
+    hw: ""
+    papers:
+      - name: "Collobert et al (2011)"
+        cite: "collobert2011natural"
+  - topic: Text Classification
+    subtopic: Naive Bayes
+    hw: HW1
+    papers:
+      - name: "Wang and Manning (2012)"
+        cite: "wang2012baselines"
+  - topic: ""
+    subtopic: (Multinomial) Logistic Regression
+    hw: ""
+    papers:
+      - cite: berger1996maximum
+        name: "Berger et al (1996)"
+      - cite: murphy2012
+        name: "Murphy (2012)"
+  - topic: 
+    subtopic: Optimization Methods
+    hw:
+    papers:
+      - cite: bottou2012stochastic
+        name: "Bottou (2012)"
+  - topic: Neural Networks
+    subtopic: Fundamentals
+    hw: HW2
+    papers: 
+  - topic: 
+    subtopic: Neural Text Classification
+    hw:
+    papers:
+      - name: "Collobert et al (2011)"
+        cite: "collobert2011natural"
+  - topic: 
+    subtopic: Convolutional Networks
+    hw:
+    papers: 
+  - topic: Language Modeling
+    subtopic: Multinomial Models and Smoothing
+    hw: HW 3
+    papers: 
+
+  - topic: 
+    subtopic: Neural Language Models
+    hw:
+    papers: 
+  - topic: 
+    subtopic: Word Embeddings
+    hw:
+    papers: 
+  - topic: Midterm
+    subtopic: 
+    hw:
+    papers: 
+  - topic: 
+    subtopic: "Application: Coreference"
+    hw:
+    papers: 
+  - topic: Recurrent Neural Networks  
+    subtopic: Fundamentals
+    hw: HW 4
+    papers: 
+  - date: Mar. 10
+    topic:   
+    subtopic: LSTMs and Language Modeling
+    hw: 
+    papers: 
+  - date: Mar. 22
+    topic:   
+    subtopic: Approximate Search 
+    hw: 
+    papers: 
+  - date: Mar. 24
+    topic: 
+    subtopic: "Application: Machine Translation"
+    hw: 
+    papers: 
+  - date: Mar. 29
+    topic: Structured Prediction
+    subtopic: Hidden Markov Models
+    hw: 
+    papers: 
+  - date: Mar. 31
+    topic: 
+    subtopic: Filtering, Smoothing, Viterbi
+    hw: HW 5
+    papers: 
+  - date: Apr. 5
+    topic: Conditional Random Fields
+    subtopic: Training
+    hw: 
+    papers: 
+  - date: Apr. 7
+    topic: 
+    subtopic: Inference
+    hw: 
+    papers: 
+  - date: Apr. 12
+    topic: 
+    subtopic: "Application: Dependency Parsing"
+    hw: 
+    papers: 
+  - date: Apr. 14
+    topic: Topics
+    subtopic: Lagrangian Relaxation
+    hw: 
+    papers: 
+  - date: Apr. 19
+    topic: 
+    subtopic: Attention Models
+    hw: 
+    papers:  
+  - date: Apr. 21
+    topic: Guest Lecture
+    subtopic: 
+    hw: 
+    papers: 
+  - date: Apr. 26
+    topic: Final Project Presentations
+    subtopic: 
+    hw: 
+    papers: 
+
+
+   
