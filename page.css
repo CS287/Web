@@ -10,3 +10,9 @@ dd {
 a {
     color: #B75F33;
 }
+
+.venue { font-style: italic; }
+
+#pubTable_filter{
+    display:none;
+}

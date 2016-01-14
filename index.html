@@ -10,7 +10,12 @@
     <meta name="author" content="">
 
     <link rel="icon" href="../../favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="jquery.dataTables.min.js"></script>
 
+    <script src="bib-list.js"></script>
+
+    <link rel="stylesheet" href="bib-publication-list.css" type="text/css" />
     
     <title>Harvard CS 287</title>
 
@@ -91,113 +96,238 @@
           <h3 id="schedule">Schedule</h3>
 
 
-      <table class="table">
+      <table class="table table-hover">
         <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Readings</th> <th>Assignment</th></tr>
+        
         <tr>
-          <td> Jan. 26</td> <td> Natural Language Processing </td> <td></td> <td> </td> <td></td>
-        </tr>
-
-        <tr>
-          <td> Jan. 28</td> <td> <a href="http://CS287.github.io/Lectures/notes/Note1-Document.pdf">Text Classification</a> </td> <td> Naive Bayes</a></td> <td></td> <td> HW 1 </td>
-       </tr>
-        <tr>
-          <td> Feb. 2</td> <td></td><td>Logistic Regression</td><td> </td> <td> </td>
-        </tr>
-        <tr>
-          <td> Feb. 4</td> <td></td> <td>Optimization  </td><td> </td><td> </td>
-        </tr>
-
-        <tr>
-          <td> Feb. 9</td> <td> <a href="http://CS287.github.io/Lectures/notes/Note2-LM.pdf"> Language Modeling</a> </td> <td>Multinomial Models</td> <td></td> <td> HW 2 </td>
-        </tr>
-
-
-        <tr>
-          <td> Feb. 11</td><td></td> <td>Multinomial Logistic Regression </a></td> <td></td><td>  <a href="https://github.com/CS287/Projects">Project Schedule</a> </td>
-        </tr>
-
-
-        <tr>
-          <td> Feb. 16</td> <td><a href="http://CS287.github.io/Lectures/notes/Note3-NN.pdf">Neural Networks</a> </td> <td> Fundamentals </td> <td></td><td>HW 3  </td>
-        </tr>
-
-
-        <tr>
-          <td> Feb. 18</td> <td></td> <td> Neural Text Classification </td> <td></td><td></td>
-        </tr>
-
-        <tr>
-          <td> Feb. 23</td> <td></td> <td>Neural Language Modeling</td> <td></td><td></td>
-        </tr>
-
-
-        <tr>
-          <td> Feb. 25</td><td></td> <td>Practical: Convolutional Neural Networks</td> <td></td><td></td>
-        </tr>
-
-
-        <tr>
-          <td> Mar. 1</td> <td> Midterm 1</td> <td></td> <td> </td> <td></td>
-        </tr>
-
-        <tr>
-          <td> Mar. 3</td> <td><a href="http://CS287.github.io/Lectures/notes/Note4-seq.pdf">Sequence Models</a></td>  <td> Fundamentals </td> <td></td> <td>HW 4</td>
-        </tr>
-
-
-        <tr>
-          <td> Mar. 8</td> <td></td> <td> Filtering, Smoothing, Viterbi </td> <td> </td> <td></td>
-        </tr>
-
-        <tr>
-          <td> Mar. 10</td> <td></td>   <td> ME Markov Models </td><td>  </td> <td>  </td>
-        </tr>
-
-        <tr>
-          <td> Mar. 22</td> <td></td>  <td> Conditional Random Fields </td> <td> </td> <td></td>
-        </tr>
-        <tr>
-          <td> Mar. 24</td> <td><a href="http://CS287.github.io/Lectures/notes/Note5-sp.pdf">Structured Prediction</a> </td><td> Ranking and Inference </td> <td></td> <td>HW 5</td>
+          <td> Jan. 26 </td> <td> Natural Language Processing </td>
+          <td> Introduction</td>
+          <td>
+            
+            
+            <div>collobert2011natural</div>
+            
+            
+          </td>
+          <td> </td>
         </tr>
         
         <tr>
-          <td> Mar. 29</td> <td></td> <td>  Applications </td> <td></td> <td></td>
+          <td> Jan. 28 </td> <td> Text Classification </td>
+          <td> Naive Bayes</td>
+          <td>
+            
+          </td>
+          <td> HW1</td>
         </tr>
-
-        <tr>
-          <td> Mar. 30</td> <td></td> <td>  Approximate Search  </td> <td></td> <td></td>
-        </tr>
-
-        <tr>
-          <td> Apr. 5</td> <td><a href="http://CS287.github.io/Lectures/notes/Note6-rnn.pdf">Recurrent Neural Networks</a></td> <td>  Fundamentals </td> <td> </td> <td> HW 6 </td>
-        </tr>
-
-        <tr>
-          <td> Apr. 7</td> <td> </td>  <td> LSTMs and Language Modeling  </td> <td> </td> <td></td>
-        </tr>
-
         
         <tr>
-          <td> Apr. 12</td> <td> </td> <td> Structured Problems </td> <td> </td> <td>  </td>
+          <td> Feb. 2 </td> <td>  </td>
+          <td> (Multinomial) Logistic Regression</td>
+          <td>
+            
+          </td>
+          <td> </td>
         </tr>
-
+        
         <tr>
-          <td> Apr. 14</td> <td> Midterm 2  </td> <td> </td> <td> </td> <td>  </td>
+          <td> Feb. 4 </td> <td>  </td>
+          <td> Optimization Methods</td>
+          <td>
+            
+          </td>
+          <td> </td>
         </tr>
-
-
+        
         <tr>
-          <td> Apr. 19</td> <td> Applications </td> <td> Machine Translation </td> <td> </td> <td> </td> <td></td>
+          <td> Feb. 9 </td> <td> Neural Networks </td>
+          <td> Fundamentals</td>
+          <td>
+            
+          </td>
+          <td> HW2</td>
         </tr>
-
+        
         <tr>
-          <td> Apr. 21</td> <td> </td><td>Coreference </td> <td> </td> <td> </td> <td></td>
+          <td> Feb. 11 </td> <td>  </td>
+          <td> Neural Text Classification</td>
+          <td>
+            
+          </td>
+          <td> </td>
         </tr>
-
+        
         <tr>
-          <td> Apr. 26</td> <td> Final Project Presentations </td><td></td> <td> </td> <td></td>
+          <td> Feb. 16 </td> <td>  </td>
+          <td> Convolutional Networks</td>
+          <td>
+            
+          </td>
+          <td> </td>
         </tr>
-
+        
+        <tr>
+          <td> Feb. 18 </td> <td> Language Modeling </td>
+          <td> Multinomial Models and Smoothing</td>
+          <td>
+            
+          </td>
+          <td> HW 3</td>
+        </tr>
+        
+        <tr>
+          <td> Feb. 23 </td> <td>  </td>
+          <td> Neural Language Models</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Feb. 25 </td> <td>  </td>
+          <td> Word Embeddings</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 1 </td> <td> Midterm </td>
+          <td> </td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 3 </td> <td>  </td>
+          <td> Application: Coreference</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 8 </td> <td> Recurrent Neural Networks </td>
+          <td> Fundamentals</td>
+          <td>
+            
+          </td>
+          <td> HW 4</td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 10 </td> <td>  </td>
+          <td> LSTMs and Language Modeling</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 22 </td> <td>  </td>
+          <td> Approximate Search</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 24 </td> <td>  </td>
+          <td> Application: Machine Translation</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 29 </td> <td> Structured Prediction </td>
+          <td> Hidden Markov Models</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 31 </td> <td>  </td>
+          <td> Filtering, Smoothing, Viterbi</td>
+          <td>
+            
+          </td>
+          <td> HW 5</td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 5 </td> <td> Conditional Random Fields </td>
+          <td> Training</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 7 </td> <td>  </td>
+          <td> Inference</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 12 </td> <td>  </td>
+          <td> Application: Dependency Parsing</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 14 </td> <td> Topics </td>
+          <td> Lagrangian Relaxation</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 19 </td> <td>  </td>
+          <td> Attention Models</td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 21 </td> <td> Guest Lecture </td>
+          <td> </td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Apr. 26 </td> <td> Final Project Presentations </td>
+          <td> </td>
+          <td>
+            
+          </td>
+          <td> </td>
+        </tr>
+        
       </table>
       </div>
 
@@ -210,8 +340,8 @@
         <p class="container">
           Grades are determined by four aspects of the class:
           <ul>
-            <li> Six assignments (50%) </li>
-            <li> Two in-class exams  (25%) </li>
+            <li> Five assignments (50%) </li>
+            <li> In-class exam  (25%) </li>
             <li> Final project (20%)</li>
             <li> Class participation (5%)</li>
           </ul>
@@ -228,6 +358,47 @@
       </p>
       </div>
 
+      
+      
+      <div class="row container">
+        <h3 id="cites">Citations</h3>
+
+        <table id="pubTable" class="table table-hover"></table>
+        <script>
+          $(function(){
+          bibtexify("page.bib", "pubTable", {"visualization":false});}
+          );
+        </script>
+        
+        
+        <!--  -->
+        <!-- <li id="citecollobert2011natural"> -->
+        <!--   <span class="authors"> -->
+        <!--     Ronan Collobert, Jason Weston, L{\'e}on Bottou, Michael Karlen, Koray Kavukcuoglu, and Pavel Kuksa. -->
+        <!--   </span> -->
+        <!--   <span class="title"> -->
+        <!--      -->
+        <!--      -->
+        <!--     <a href="http://arxiv.org/pdf/1103.0398">Natural language processing (almost) from scratch</a>. -->
+        <!--      -->
+        <!--   </span> -->
+        <!--   <span class="venuetype"></span><span class="venue">The Journal of Machine Learning Research</span>, -->
+        <!--   <span class="date"> -->
+        <!--      -->
+        <!--     2011. -->
+        <!--   </span> -->
+
+        <!--   <span class="links"> -->
+        <!--      -->
+        <!--   </span> -->
+        <!-- </li> -->
+
+        <!--  -->
+        
+
+
+      </div>
+      
     </div> <!-- /container -->
 
 
@@ -243,4 +414,3 @@
 <html>
 
 </html>
-
