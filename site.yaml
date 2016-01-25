@@ -5,129 +5,132 @@ dates: ["Jan. 26", "Jan. 28", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 16"
 lectures:
   - topic: Natural Language Processing
     subtopic: Introduction
-    hw: ""
+    hw: <a href="https://github.com/CS287/HW1/raw/master/HW1.pdf" >HW1</a> (<a href="https://github.com/CS287/HW1" >Repo</a>)
     papers:
-      - name: "Collobert et al (2011)"
-        cite: "collobert2011natural"
-  - topic: Text Classification
-    subtopic: Naive Bayes
-    hw: HW1
+      - name: "Manning (2016)"
+        cite: "manning2016computational"
+  - topic: <a href="https://github.com/CS287/Lectures/raw/master/slides/lecture2-textclassification.pdf" >Text Classification</a>
+    subtopic: Background
+
     papers:
       - name: "Wang and Manning (2012)"
         cite: "wang2012baselines"
   - topic: ""
-    subtopic: (Multinomial) Logistic Regression
+    subtopic: Linear Classification 1
     hw: ""
     papers:
       - cite: berger1996maximum
         name: "Berger et al (1996)"
       - cite: murphy2012
-        name: "Murphy (2012)"
-  - topic: 
-    subtopic: Optimization Methods
+        name: "Murphy (2012) [p 82, 245]"
+  - topic:
+    subtopic: Linear Classification 2
     hw:
+    notes: YG &sect; 6-6.1
     papers:
       - cite: bottou2012stochastic
         name: "Bottou (2012)"
   - topic: Neural Networks
-    subtopic: Fundamentals
+    subtopic: Background + Embeddings
     hw: HW2
-    papers: 
-  - topic: 
-    subtopic: Neural Text Classification
+    notes: YG &sect; 3, &sect; 4.1-4.5,
+    papers:
+  - topic:
+    subtopic: Windowed Neural Networks
     hw:
+    notes: YG &sect; 5
     papers:
       - name: "Collobert et al (2011)"
         cite: "collobert2011natural"
-  - topic: 
+  - topic:
     subtopic: Convolutional Networks
     hw:
-    papers: 
+    notes: YG &sect; 9
+    papers:
+        - name: "Kalchbrenner et al (2014)"
+          cite: "DBLP:conf/acl/KalchbrennerGB14"
+        - name: "Kim (2014)"
+          cite: "DBLP:conf/emnlp/Kim14"
   - topic: Language Modeling
-    subtopic: Multinomial Models and Smoothing
+    subtopic: Background + Smoothing
     hw: HW 3
-    papers: 
-
-  - topic: 
+  - topic:
     subtopic: Neural Language Models
     hw:
-    papers: 
-  - topic: 
-    subtopic: Word Embeddings
+    papers:
+        - name: "Bengio et al (2003)"
+          cite: "DBLP:journals/jmlr/BengioDVJ03"
+  - topic:
+    subtopic: Word Embeddings and Visualization
     hw:
-    papers: 
+    notes: YG &sect; 5
+    papers:
   - topic: Midterm
-    subtopic: 
+    subtopic:
     hw:
-    papers: 
-  - topic: 
-    subtopic: "Application: Coreference"
-    hw:
-    papers: 
-  - topic: Recurrent Neural Networks  
+    papers:
+  - topic: Recurrent Neural Networks
     subtopic: Fundamentals
     hw: HW 4
-    papers: 
-  - date: Mar. 10
-    topic:   
+    notes: YG &sect; 10
+    papers:
+  - topic:
     subtopic: LSTMs and Language Modeling
-    hw: 
-    papers: 
-  - date: Mar. 22
-    topic:   
-    subtopic: Approximate Search 
-    hw: 
-    papers: 
-  - date: Mar. 24
-    topic: 
-    subtopic: "Application: Machine Translation"
-    hw: 
-    papers: 
+    hw:
+    notes: YG &sect; 11
+    papers:
+  - topic:
+    subtopic: Approximate Search
+    hw:
+    papers:
+  - topic: Application
+    subtopic: "Machine Translation"
+    hw:
+    papers:
+
   - date: Mar. 29
     topic: Structured Prediction
     subtopic: Hidden Markov Models
-    hw: 
-    papers: 
-  - date: Mar. 31
-    topic: 
-    subtopic: Filtering, Smoothing, Viterbi
     hw: HW 5
-    papers: 
-  - date: Apr. 5
-    topic: Conditional Random Fields
+    papers:
+  - date: Mar. 31
+    topic:
+    subtopic: Filtering, Smoothing, Viterbi
+    hw:
+    papers:
+  - topic: Application
+    subtopic: "Coreference"
+    hw:
+    papers:
+
+  - topic: Conditional Random Fields
     subtopic: Training
-    hw: 
-    papers: 
-  - date: Apr. 7
-    topic: 
+    hw:
+    papers:
+  - topic:
     subtopic: Inference
-    hw: 
-    papers: 
-  - date: Apr. 12
-    topic: 
-    subtopic: "Application: Dependency Parsing"
-    hw: 
-    papers: 
-  - date: Apr. 14
-    topic: Topics
-    subtopic: Lagrangian Relaxation
-    hw: 
-    papers: 
+    hw:
+    papers:
+  - topic: Application
+    subtopic: Dependency Parsing
+    hw:
+    papers:
+  - topic: Topics
+    subtopic:
+    hw:
+    papers:
   - date: Apr. 19
-    topic: 
-    subtopic: Attention Models
-    hw: 
-    papers:  
+    topic: Topics
+    subtopic:
+    hw:
+    papers:
   - date: Apr. 21
     topic: Guest Lecture
-    subtopic: 
-    hw: 
-    papers: 
+    subtopic:
+    hw:
+    papers:
   - date: Apr. 26
     topic: Final Project Presentations
-    subtopic: 
-    hw: 
-    papers: 
-
-
-   
+    subtopic:
+    hw:
+    papers:

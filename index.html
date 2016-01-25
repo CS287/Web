@@ -16,7 +16,7 @@
     <script src="bib-list.js"></script>
 
     <link rel="stylesheet" href="bib-publication-list.css" type="text/css" />
-    
+
     <title>Harvard CS 287</title>
 
     <!-- Bootstrap core CSS -->
@@ -34,7 +34,7 @@
         <div class="panel-heading" style="background-color:#B75F33;border-color:#B75F33;">
           <h1>CS287: Statistical Natural Language Processing</h1>
           <p class="lead">Harvard University</p>
-          
+
         </div>
         <div class="panel-footer">
           <ul class="nav nav-pills invert-colors">
@@ -48,37 +48,38 @@
       <div class="container">
         <div class="row container">
       <h3 id="description">Course Info</h3>
-      
+
       <div class="container ">
         <!-- <div class="panel-body"> -->
         <dl>
         <dt>Instructor</dt>
         <dd>Alexander "Sasha" Rush <<a>srush@seas.harvard.edu</a>> </dd>
-        <dd>OH: Thurs 2:30-4, MD 217</dd>
+        <dd>OH: Wed 1-4, MD 217</dd>
 
         <dt>Teaching Assistants</dt>
-        <dd>      
+        <dd>
           <ul>
-            <li>Sam Wiseman <<a href="mailto:swiseman@g.harvard.edu">swiseman@g.harvard.edu</a>> OH: </li>
+            <li>Sam Wiseman <<a href="mailto:swiseman@g.harvard.edu">swiseman@g.harvard.edu</a>> OH: MD 208 </li>
           </ul>
         </dd>
-        
+
         <dt>Course Email</dt>
         <dd><ul><li><<a href="mailto:cs287-harvard@googlegroups.com">cs287-harvard@googlegroups.com</a>></ul></li></dd>
-        
-        <dt>Lectures</dt>       
+
+        <dt>Lectures</dt>
         <dd>Tues/Thurs 2:30-4pm</dd>
-        
-        <dt>Sections</dt>       
+
+        <dt>Sections</dt>
           <dd>
           </dd>
 
         <dt>Links</dt>
         <dd>
           <ul>
-            <li><a href="http://cs287.github.io/Lectures/syllabus.pdf">Syllabus</a></li>
+            <li><a href="https://github.com/CS287/Lectures/raw/master/syllabus.pdf">Syllabus</a></li>
             <li><a href="http://piazza.com/harvard/spring2016/cs287">Piazza Forum</a></li>
             <li><a href="https://canvas.harvard.edu/courses/9534">Canvas Site</a></li>
+            <li><a href="http://www.github.com/cs287/hw_template/">Write-Up Template</a></li>
           </ul>
         </dd>
 
@@ -97,7 +98,7 @@
 
 
       <table class="table table-hover">
-        <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Readings</th> <th>Assignment</th></tr>
+        <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Readings</th> <th>Notes </th> <th>Assignment</th></tr>
         
         <tr>
           <td> Jan. 26 </td> <td> Natural Language Processing </td>
@@ -105,55 +106,79 @@
           <td>
             
             
-            <div><a href="#cite_collobert2011natural">Collobert et al (2011)</a></div>
+            <div><a href="#cite_manning2016computational">Manning (2016)</a></div>
             
             
           </td>
           <td> </td>
+          <td> <a href="https://github.com/CS287/HW1/raw/master/HW1.pdf" >HW1</a> (<a href="https://github.com/CS287/HW1" >Repo</a>)</td>
         </tr>
         
         <tr>
-          <td> Jan. 28 </td> <td> Text Classification </td>
-          <td> Naive Bayes</td>
+          <td> Jan. 28 </td> <td> <a href="https://github.com/CS287/Lectures/raw/master/slides/lecture2-textclassification.pdf" >Text Classification</a> </td>
+          <td> Background</td>
           <td>
             
+            
+            <div><a href="#cite_wang2012baselines">Wang and Manning (2012)</a></div>
+            
+            
           </td>
-          <td> HW1</td>
+          <td> </td>
+          <td> </td>
         </tr>
         
         <tr>
           <td> Feb. 2 </td> <td>  </td>
-          <td> (Multinomial) Logistic Regression</td>
+          <td> Linear Classification 1</td>
           <td>
             
+            
+            <div><a href="#cite_berger1996maximum">Berger et al (1996)</a></div>
+            
+            <div><a href="#cite_murphy2012">Murphy (2012) [p 82, 245]</a></div>
+            
+            
           </td>
+          <td> </td>
           <td> </td>
         </tr>
         
         <tr>
           <td> Feb. 4 </td> <td>  </td>
-          <td> Optimization Methods</td>
+          <td> Linear Classification 2</td>
           <td>
             
+            
+            <div><a href="#cite_bottou2012stochastic">Bottou (2012)</a></div>
+            
+            
           </td>
+          <td> YG &sect; 6-6.1</td>
           <td> </td>
         </tr>
         
         <tr>
           <td> Feb. 9 </td> <td> Neural Networks </td>
-          <td> Fundamentals</td>
+          <td> Background + Embeddings</td>
           <td>
             
           </td>
+          <td> YG &sect; 3, &sect; 4.1-4.5,</td>
           <td> HW2</td>
         </tr>
         
         <tr>
           <td> Feb. 11 </td> <td>  </td>
-          <td> Neural Text Classification</td>
+          <td> Windowed Neural Networks</td>
           <td>
             
+            
+            <div><a href="#cite_collobert2011natural">Collobert et al (2011)</a></div>
+            
+            
           </td>
+          <td> YG &sect; 5</td>
           <td> </td>
         </tr>
         
@@ -162,16 +187,24 @@
           <td> Convolutional Networks</td>
           <td>
             
+            
+            <div><a href="#cite_DBLP:conf/acl/KalchbrennerGB14">Kalchbrenner et al (2014)</a></div>
+            
+            <div><a href="#cite_DBLP:conf/emnlp/Kim14">Kim (2014)</a></div>
+            
+            
           </td>
+          <td> YG &sect; 9</td>
           <td> </td>
         </tr>
         
         <tr>
           <td> Feb. 18 </td> <td> Language Modeling </td>
-          <td> Multinomial Models and Smoothing</td>
+          <td> Background + Smoothing</td>
           <td>
             
           </td>
+          <td> </td>
           <td> HW 3</td>
         </tr>
         
@@ -180,16 +213,22 @@
           <td> Neural Language Models</td>
           <td>
             
+            
+            <div><a href="#cite_DBLP:journals/jmlr/BengioDVJ03">Bengio et al (2003)</a></div>
+            
+            
           </td>
+          <td> </td>
           <td> </td>
         </tr>
         
         <tr>
           <td> Feb. 25 </td> <td>  </td>
-          <td> Word Embeddings</td>
+          <td> Word Embeddings and Visualization</td>
           <td>
             
           </td>
+          <td> YG &sect; 5</td>
           <td> </td>
         </tr>
         
@@ -200,69 +239,77 @@
             
           </td>
           <td> </td>
-        </tr>
-        
-        <tr>
-          <td> Mar. 3 </td> <td>  </td>
-          <td> Application: Coreference</td>
-          <td>
-            
-          </td>
           <td> </td>
         </tr>
         
         <tr>
-          <td> Mar. 8 </td> <td> Recurrent Neural Networks </td>
+          <td> Mar. 3 </td> <td> Recurrent Neural Networks </td>
           <td> Fundamentals</td>
           <td>
             
           </td>
+          <td> YG &sect; 10</td>
           <td> HW 4</td>
         </tr>
         
         <tr>
-          <td> Mar. 10 </td> <td>  </td>
+          <td> Mar. 8 </td> <td>  </td>
           <td> LSTMs and Language Modeling</td>
           <td>
             
           </td>
+          <td> YG &sect; 11</td>
           <td> </td>
         </tr>
         
         <tr>
-          <td> Mar. 22 </td> <td>  </td>
+          <td> Mar. 10 </td> <td>  </td>
           <td> Approximate Search</td>
           <td>
             
           </td>
           <td> </td>
-        </tr>
-        
-        <tr>
-          <td> Mar. 24 </td> <td>  </td>
-          <td> Application: Machine Translation</td>
-          <td>
-            
-          </td>
           <td> </td>
         </tr>
         
         <tr>
-          <td> Mar. 29 </td> <td> Structured Prediction </td>
+          <td> Mar. 22 </td> <td> Application </td>
+          <td> Machine Translation</td>
+          <td>
+            
+          </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 24 </td> <td> Structured Prediction </td>
           <td> Hidden Markov Models</td>
           <td>
             
           </td>
           <td> </td>
+          <td> HW 5</td>
         </tr>
         
         <tr>
-          <td> Mar. 31 </td> <td>  </td>
+          <td> Mar. 29 </td> <td>  </td>
           <td> Filtering, Smoothing, Viterbi</td>
           <td>
             
           </td>
-          <td> HW 5</td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        
+        <tr>
+          <td> Mar. 31 </td> <td> Application </td>
+          <td> Coreference</td>
+          <td>
+            
+          </td>
+          <td> </td>
+          <td> </td>
         </tr>
         
         <tr>
@@ -271,6 +318,7 @@
           <td>
             
           </td>
+          <td> </td>
           <td> </td>
         </tr>
         
@@ -281,32 +329,36 @@
             
           </td>
           <td> </td>
+          <td> </td>
         </tr>
         
         <tr>
-          <td> Apr. 12 </td> <td>  </td>
-          <td> Application: Dependency Parsing</td>
+          <td> Apr. 12 </td> <td> Application </td>
+          <td> Dependency Parsing</td>
           <td>
             
           </td>
+          <td> </td>
           <td> </td>
         </tr>
         
         <tr>
           <td> Apr. 14 </td> <td> Topics </td>
-          <td> Lagrangian Relaxation</td>
+          <td> </td>
           <td>
             
           </td>
           <td> </td>
+          <td> </td>
         </tr>
         
         <tr>
-          <td> Apr. 19 </td> <td>  </td>
-          <td> Attention Models</td>
+          <td> Apr. 19 </td> <td> Topics </td>
+          <td> </td>
           <td>
             
           </td>
+          <td> </td>
           <td> </td>
         </tr>
         
@@ -317,6 +369,7 @@
             
           </td>
           <td> </td>
+          <td> </td>
         </tr>
         
         <tr>
@@ -325,6 +378,7 @@
           <td>
             
           </td>
+          <td> </td>
           <td> </td>
         </tr>
         
@@ -358,8 +412,8 @@
       </p>
       </div>
 
-      
-      
+
+
       <div class="row container">
         <h3 id="cites">Citations</h3>
 
@@ -369,12 +423,12 @@
           bibtexify("page.bib", "pubTable", {"visualization":false});}
           );
         </script>
-        
-        
+
+
 
 
       </div>
-      
+
     </div> <!-- /container -->
 
 
