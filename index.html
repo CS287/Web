@@ -80,6 +80,7 @@
             <li><a href="http://piazza.com/harvard/spring2016/cs287">Piazza Forum</a></li>
             <li><a href="https://canvas.harvard.edu/courses/9534">Canvas Site</a></li>
             <li><a href="http://www.github.com/cs287/hw_template/">Write-Up Template</a></li>
+            <li><a href="http://u.cs.biu.ac.il/~yogo/nnlp.pdf">Primer on NN for NLP (YG)</a></li>
           </ul>
         </dd>
 
