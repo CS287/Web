@@ -15,16 +15,19 @@ lectures:
     subtopic: Background
 
     papers:
+      - cite: bishop2006pattern
+        name: "Bishop (2006) &sect; 4.2, 4.3"
+      - cite: murphy2012
+        name: "Murphy (2012) [p 82, 245]"
       - name: "Wang and Manning (2012)"
-        cite: "wang2012baselines"
+        cite: wang2012baselines
+
   - topic: ""
     subtopic: Linear Classification 1
     hw: ""
     papers:
       - cite: berger1996maximum
         name: "Berger et al (1996)"
-      - cite: murphy2012
-        name: "Murphy (2012) [p 82, 245]"
   - topic:
     subtopic: Linear Classification 2
     hw:
