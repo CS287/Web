@@ -5,13 +5,13 @@ dates: ["Jan. 26", "Jan. 28", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 16"
 
 
 lectures:
-  - topic: <a href="https://github.com/CS287/Lectures/raw/master/slides/lecture1.pdf" >Natural Language Processing</a>
+  - topic: <a href="https://CS287.github.io/Lectures/slides/lecture1.pdf" >Natural Language Processing</a>
     subtopic: Introduction
     hw: <a href="https://CS287.github.io/HW1/HW1.pdf" >HW1</a> (<a href="https://github.com/CS287/HW1" >Repo</a>)
     papers:
       - name: "Manning (2016)"
         cite: "manning2016computational"
-  - topic: <a href="https://github.com/CS287/Lectures/raw/master/slides/lecture2-textclassification.pdf" >Text Classification</a>
+  - topic: <a href="https://CS287.github.io/Lectures/slides/lecture2-textclassification.pdf" >Text Classification</a>
     subtopic: Background
 
     papers:
