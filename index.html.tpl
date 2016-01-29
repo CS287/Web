@@ -90,7 +90,7 @@
         <hr>
         <div class="row container">
           <h3 id="announcements">Announcements</h3>
-          <ul>
+          <ul>The Torch tutorial will be tomorrow (1/29) at 2pm, in Pierce 320
           </ul>
         </div>
         <hr>
