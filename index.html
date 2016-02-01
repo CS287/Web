@@ -67,7 +67,7 @@
         <dd><ul><li><<a href="mailto:cs287-harvard@googlegroups.com">cs287-harvard@googlegroups.com</a>></ul></li></dd>
 
         <dt>Lectures</dt>
-        <dd>Tues/Thurs 2:30-4pm MD 221</dd>
+        <dd>Tues/Thurs 2:30-4pm <s>MD 221</s> Jefferson 256</dd>
 
         <dt>Sections</dt>
           <dd>
