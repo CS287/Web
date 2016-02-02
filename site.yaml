@@ -18,7 +18,7 @@ lectures:
       - cite: bishop2006pattern
         name: "Bishop (2006) &sect; 4.2, 4.3"
       - cite: murphy2012
-        name: "Murphy (2012) [p 82, 245]"
+        name: "Murphy (2012) &sect; 3.5 "
       - name: "Wang and Manning (2012)"
         cite: wang2012baselines
 
@@ -26,6 +26,8 @@ lectures:
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture3-lr.pdf" >Multiclass Logistic Regression</a>
     hw: ""
     papers:
+      - cite: murphy2012
+        name: "Murphy (2012) &sect; 8.1-8.3 "
       - cite: berger1996maximum
         name: "Berger et al (1996)"
   - topic:
