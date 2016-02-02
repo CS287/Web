@@ -23,7 +23,7 @@ lectures:
         cite: wang2012baselines
 
   - topic: ""
-    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture2-textclassification.pdf" >Multiclass Logistic Regression</a>
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture3-lr.pdf" >Multiclass Logistic Regression</a>
     hw: ""
     papers:
       - cite: berger1996maximum
