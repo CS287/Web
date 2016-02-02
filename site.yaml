@@ -11,8 +11,8 @@ lectures:
     papers:
       - name: "Manning (2016)"
         cite: "manning2016computational"
-  - topic: <a href="https://CS287.github.io/Lectures/slides/lecture2-textclassification.pdf" >Text Classification</a>
-    subtopic: Background
+  - topic: Text Classification
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture2-textclassification.pdf" >Background and Naive Bayes</a>
 
     papers:
       - cite: bishop2006pattern
@@ -23,7 +23,7 @@ lectures:
         cite: wang2012baselines
 
   - topic: ""
-    subtopic: Linear Classification 1
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture2-textclassification.pdf" >Multiclass Logistic Regression</a>
     hw: ""
     papers:
       - cite: berger1996maximum
