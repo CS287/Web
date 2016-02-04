@@ -31,7 +31,7 @@ lectures:
       - cite: berger1996maximum
         name: "Berger et al (1996)"
   - topic:
-    subtopic: Linear Classification 2
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture4-opt.pdf" >Hinge and Optimization</a>
     hw:
     notes: YG &sect; 6-6.1
     papers:
