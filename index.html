@@ -59,7 +59,8 @@
         <dt>Teaching Assistants</dt>
         <dd>
           <ul>
-            <li>Sam Wiseman <<a href="mailto:swiseman@g.harvard.edu">swiseman@g.harvard.edu</a>> OH: MD 208 </li>
+            <li>Sam Wiseman <<a href="mailto:swiseman@g.harvard.edu">swiseman@g.harvard.edu</a>> OH: Fri, 3-4, MD 2nd floor lounge  </li>
+            
           </ul>
         </dd>
 
