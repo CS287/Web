@@ -22,7 +22,7 @@ lectures:
       - name: "Wang and Manning (2012)"
         cite: wang2012baselines
   - topic: 
-    subtopic: <a href="https://CS287.github.io/Lectures/notebooks/" >Section: Torch</a>
+    subtopic: <a href="https://CS287.github.io/Lectures/notebooks/" >Section\: Torch</a>
     notes: <a href="http://torch.ch">Torch</a>
     
   - topic: ""
