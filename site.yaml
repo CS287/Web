@@ -7,7 +7,7 @@ dates: ["Jan. 26", "Jan. 28", "Jan. 29", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11"
 lectures:
   - topic: <a href="https://CS287.github.io/Lectures/slides/lecture1.pdf" >Natural Language Processing</a>
     subtopic: Introduction
-    hw: <a href="https://CS287.github.io/HW1/HW1.pdf" >HW1</a> (<a href="https://github.com/CS287/HW1" >Repo</a> (<a href="https://inclass.kaggle.com/c/cs287-hw1/leaderboard">Kaggle</a>))
+    hw: <a href="https://CS287.github.io/HW1/HW1.pdf" >HW1</a> (<a href="https://github.com/CS287/HW1" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw1/leaderboard">Kaggle</a>)
     papers:
       - name: "Manning (2016)"
         cite: "manning2016computational"
