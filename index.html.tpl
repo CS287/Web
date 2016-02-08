@@ -60,6 +60,7 @@
         <dd>
           <ul>
             <li>Sam Wiseman <<a href="mailto:swiseman@g.harvard.edu">swiseman@g.harvard.edu</a>> OH: Fri, 3-4, MD 2nd floor lounge  </li>
+            <li>Saketh Rama <<a href="mailto:rama@seas.harvard.edu">rama@seas.harvard.edu</a>> OH: Mon, 5-6, MD 2nd floor lounge  </li>
             
           </ul>
         </dd>
@@ -91,7 +92,10 @@
         <hr>
         <div class="row container">
           <h3 id="announcements">Announcements</h3>
-          <ul>The Torch tutorial will be tomorrow (1/29) at 2pm, in Pierce 320
+          
+          <ul>
+            <li>The nn tutorial will be Friday (2/12) at 2pm, (room pending)</li>
+            <li>The Torch tutorial will be tomorrow (1/29) at 2pm, in Pierce 320</li>
           </ul>
         </div>
         <hr>
