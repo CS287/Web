@@ -21,8 +21,8 @@ lectures:
         name: "Murphy (2012) &sect; 3.5 "
       - name: "Wang and Manning (2012)"
         cite: wang2012baselines
-  - topic: Section 
-    subtopic: <a href="http://nbviewer.jupyter.org/urls/cs287.github.io/Lectures/notebooks/TorchTutorial.ipynb" >Torch</a>
+  - topic: 
+    subtopic: Section <a href="http://nbviewer.jupyter.org/urls/cs287.github.io/Lectures/notebooks/TorchTutorial.ipynb" >Torch Notes</a>
     notes: <a href="http://torch.ch">Torch</a>
     
   - topic: ""
