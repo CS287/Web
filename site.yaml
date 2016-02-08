@@ -43,7 +43,7 @@ lectures:
         name: "Bottou (2012)"
   - topic: Neural Networks
     subtopic: Background + Embeddings
-    hw: HW2
+    hw: <a href="https://CS287.github.io/HW2/HW2.pdf" >HW2</a> (<a href="https://github.com/CS287/HW2" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw2/leaderboard">Kaggle</a>)
     notes: YG &sect; 3, &sect; 4.1-4.5,
     papers:
   - topic:
