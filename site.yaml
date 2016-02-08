@@ -37,7 +37,7 @@ lectures:
   - topic:
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture4-opt.pdf" >Hinge and Optimization</a>
     hw:
-    notes: YG &sect; 6-6.1, , <a href="https://github.com/torch/optim">Torch optim</a>
+    notes: YG &sect; 6-6.1, , <a href="https://github.com/torch/optim">optim</a>
     papers:
       - cite: bottou2012stochastic
         name: "Bottou (2012)"
