@@ -42,7 +42,7 @@ lectures:
       - cite: bottou2012stochastic
         name: "Bottou (2012)"
   - topic: Neural Networks
-    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture4-nn.pdf" >Tagging  + Bilinear Models</a>
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture5-nn.pdf" >Tagging  + Bilinear Models</a>
     hw: <a href="https://CS287.github.io/HW2/HW2.pdf" >HW2</a> (<a href="https://github.com/CS287/HW2" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw2/leaderboard">Kaggle</a>)
     notes: YG &sect; 3, &sect; 4.1-4.5,
     papers:
@@ -51,7 +51,7 @@ lectures:
       - name: "Collobert et al (2011)"
         cite: "collobert2011natural"
   - topic:
-    subtopic: Windowed Neural Networks
+    subtopic: Neural Networks
     hw:
     notes: YG &sect; 5
     papers:
