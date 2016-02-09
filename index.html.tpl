@@ -61,7 +61,7 @@
           <ul>
             <li>Sam Wiseman <<a href="mailto:swiseman@g.harvard.edu">swiseman@g.harvard.edu</a>> OH: Fri, 3-4, MD 2nd floor lounge  </li>
             <li>Saketh Rama <<a href="mailto:rama@seas.harvard.edu">rama@seas.harvard.edu</a>> OH: Mon, 5-6, MD 2nd floor lounge  </li>
-            
+
           </ul>
         </dd>
 
@@ -69,7 +69,7 @@
         <dd><ul><li><<a href="mailto:cs287-harvard@googlegroups.com">cs287-harvard@googlegroups.com</a>></ul></li></dd>
 
         <dt>Lectures</dt>
-        <dd>Tues/Thurs 2:30-4pm <s>MD 221</s> Jefferson 256</dd>
+        <dd>Tues/Thurs 2:30-4pm Jefferson 256</dd>
 
         <dt>Sections</dt>
           <dd>
@@ -92,9 +92,9 @@
         <hr>
         <div class="row container">
           <h3 id="announcements">Announcements</h3>
-          
+
           <ul>
-            <li>The nn tutorial will be Friday (2/12) at 2pm, (room pending)</li>
+            <li>The nn tutorial will be Friday (2/12) at 2pm, in MD 223</li>
             <li>The Torch tutorial will be tomorrow (1/29) at 2pm, in Pierce 320</li>
           </ul>
         </div>
