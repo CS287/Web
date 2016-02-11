@@ -51,7 +51,7 @@ lectures:
       - name: "Collobert et al (2011)"
         cite: "collobert2011natural"
   - topic:
-    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture5-nn2.pdf" >Neural Networks</a>
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture6-nn2.pdf" >Neural Networks</a>
     hw:
     notes: YG &sect; 5
     papers:
