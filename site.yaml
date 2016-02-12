@@ -56,6 +56,10 @@ lectures:
     notes: YG &sect; 5
     papers:
   - topic:
+    subtopic: Section <a href="http://nbviewer.jupyter.org/urls/cs287.github.io/Lectures/notebooks/NNTutorial.ipynb" >Torch nn Notes</a>
+    notes: <a href="https://github.com/torch/nn">Torch nn</a>
+
+  - topic:
     subtopic: Convolutional Networks
     hw:
     notes: YG &sect; 9
