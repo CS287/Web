@@ -1,4 +1,4 @@
-dates: ["Jan. 26", "Jan. 28", "Jan. 29", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 16",
+dates: ["Jan. 26", "Jan. 28", "Jan. 29", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 12", "Feb. 16",
         "Feb. 18", "Feb. 23", "Feb. 25", "Mar. 1", "Mar. 3", "Mar. 8", "Mar. 10",
         "Mar. 22", "Mar. 24", "Mar. 29", "Mar. 31", "Apr. 5", "Apr. 7", "Apr. 12",
         "Apr. 14", "Apr. 19", "Apr. 21", "Apr. 26"]
@@ -60,14 +60,15 @@ lectures:
     notes: <a href="https://github.com/torch/nn">Torch nn</a>
 
   - topic:
-    subtopic: Convolutional Networks
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture7-wc.pdf"> Word Embeddings </a>
     hw:
-    notes: YG &sect; 9
+    notes: YG &sect; 5
     papers:
-        - name: "Kalchbrenner et al (2014)"
-          cite: "DBLP:conf/acl/KalchbrennerGB14"
-        - name: "Kim (2014)"
-          cite: "DBLP:conf/emnlp/Kim14"
+        - name: Mikolov et al. (2013)
+          cite: "mikolovchen"
+        - name: Mnih and Hinton (2008)
+          cite: "mnihhinton"
+
   - topic: Language Modeling
     subtopic: Background + Smoothing
     hw: HW 3
@@ -78,9 +79,13 @@ lectures:
         - name: "Bengio et al (2003)"
           cite: "DBLP:journals/jmlr/BengioDVJ03"
   - topic:
-    subtopic: Word Embeddings and Visualization
+    subtopic: Convolutions
     hw:
-    notes: YG &sect; 5
+        - name: "Kalchbrenner et al (2014)"
+          cite: "DBLP:conf/acl/KalchbrennerGB14"
+        - name: "Kim (2014)"
+          cite: "DBLP:conf/emnlp/Kim14"
+    notes: YG &sect; 9
     papers:
   - topic: Midterm
     subtopic:
