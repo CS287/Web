@@ -81,12 +81,12 @@ lectures:
   - topic:
     subtopic: Convolutions
     hw:
+    notes: YG &sect; 9
+    papers:
         - name: "Kalchbrenner et al (2014)"
           cite: "DBLP:conf/acl/KalchbrennerGB14"
         - name: "Kim (2014)"
           cite: "DBLP:conf/emnlp/Kim14"
-    notes: YG &sect; 9
-    papers:
   - topic: Midterm
     subtopic:
     hw:
