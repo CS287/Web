@@ -70,14 +70,20 @@ lectures:
           cite: "mnihhinton"
 
   - topic: Language Modeling
-    subtopic: Background + Smoothing
-    hw: HW 3
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture8-lm.pdf">Background </a>
+    hw: 
+    papers:
+        - name: "Chen and Goodman (1999)"
+          cite: "ChenG99"
+        - name: "Hadfield"
+          cite: ""
   - topic:
     subtopic: Neural Language Models
     hw:
     papers:
         - name: "Bengio et al (2003)"
           cite: "DBLP:journals/jmlr/BengioDVJ03"
+    hw: HW 3
   - topic:
     subtopic: Convolutions
     hw:
