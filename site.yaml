@@ -75,8 +75,8 @@ lectures:
     papers:
         - name: "Chen and Goodman (1999)"
           cite: "ChenG99"
-        - name: "Hadfield"
-          cite: ""
+        - name: "Heafield (2011)"
+          cite: "heafield2011kenlm"
   - topic:
     subtopic: Neural Language Models
     hw:
