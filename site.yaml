@@ -88,7 +88,7 @@ lectures:
 
     hw: <a href="https://CS287.github.io/HW3/HW3.pdf" >HW3</a> (<a href="https://github.com/CS287/HW3" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw3/leaderboard">Kaggle</a>)
   - topic:
-    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture10-conv.pdf>Convolutions</a>
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture10-conv.pdf">Convolutions</a>
     hw:
     notes: YG &sect; 9
     papers:
