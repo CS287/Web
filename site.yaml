@@ -88,7 +88,7 @@ lectures:
 
     hw: <a href="https://CS287.github.io/HW3/HW3.pdf" >HW3</a> (<a href="https://github.com/CS287/HW3" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw3/leaderboard">Kaggle</a>)
   - topic:
-    subtopic: Convolutions
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture10-conv.pdf>Convolutions</a>
     hw:
     notes: YG &sect; 9
     papers:
@@ -96,6 +96,8 @@ lectures:
           cite: "DBLP:conf/acl/KalchbrennerGB14"
         - name: "Kim (2014)"
           cite: "DBLP:conf/emnlp/Kim14"
+        - name: "Zeiler and Fergus (2014)"
+          cite: "DBLP:conf/eccv/ZeilerF14"
   - topic: Midterm
     subtopic:
     hw:
