@@ -112,12 +112,12 @@ lectures:
     hw: <a href="https://CS287.github.io/HW4/HW4.pdf" >HW 4</a>(<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     notes: YG &sect; 11
     papers:
-  - topic:
-    subtopic: Approximate Search
+  - topic: NLP Applications
+    subtopic: Overview
     hw:
     papers:
   - topic: Application
-    subtopic: "Machine Translation"
+    subtopic: Approximate Search
     hw:
     papers:
 
