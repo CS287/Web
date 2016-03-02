@@ -104,12 +104,12 @@ lectures:
     papers:
   - topic: Recurrent Neural Networks
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture11-rnn.pdf">Fundamentals</a>
-    hw: <a href="https://CS287.github.io/Projects/projects.pdf">Projects</a>(<a href="https://github.com/cs287/projects/wiki">Wiki</a>)
+    hw: <a href="https://CS287.github.io/Projects/projects.pdf">Projects</a> (<a href="https://github.com/cs287/projects/wiki">Wiki</a>)
     notes: YG &sect; 10
     papers:
   - topic:
     subtopic: LSTMs and Language Modeling
-    hw: <a href="https://CS287.github.io/HW4/HW4.pdf" >HW 4</a>(<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
+    hw: <a href="https://CS287.github.io/HW4/HW4.pdf" >HW 4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     notes: YG &sect; 11
     papers:
   - topic: NLP Applications
