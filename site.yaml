@@ -107,14 +107,30 @@ lectures:
     hw: <a href="https://CS287.github.io/Projects/projects.pdf">Projects</a> (<a href="https://github.com/cs287/projects/wiki">Wiki</a>)
     notes: YG &sect; 10
     papers:
+        - name: "Elman (1990)"
+          cite: "DBLP:journals/cogsci/Elman90"
+        - name: "Mikolov (2012)"
+          cite: "tomavs2012statistical"
+        - name: "Graves et al (2005)"
+          cite: "DBLP:conf/icann/GravesFS05"
   - topic:
-    subtopic: LSTMs and Language Modeling
-    hw: <a href="https://CS287.github.io/HW4/HW4.pdf" >HW 4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture12-lstm.pdf">LSTMs and Language Modeling</a>
+    hw: 
     notes: YG &sect; 11
     papers:
+        - name: "Hochreiter and Schmidhuber (1997)"
+          cite: "DBLP:journals/neco/HochreiterS97"
+        - name: "Jozefowicz et al. (2015)"
+          cite: "DBLP:conf/icml/JozefowiczZS15"
+        - name: "Chung et al 2014"
+          cite: "DBLP:journals/corr/ChungGCB14"
+        - name: "Karpathy et al (2015)"
+          cite: "DBLP:journals/corr/KarpathyJL15"
+        - name: "Srivastava et al (2015)"
+          cite: "DBLP:journals/corr/SrivastavaGS15"
   - topic: NLP Applications
-    subtopic: Overview
-    hw:
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture13-applications.pdf">Overview</a>
+    hw:<a href="https://CS287.github.io/HW4/HW4.pdf">HW 4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     papers:
   - topic: Section
     subtopic: RNNs
