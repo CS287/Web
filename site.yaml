@@ -130,7 +130,7 @@ lectures:
           cite: "DBLP:journals/corr/SrivastavaGS15"
   - topic: NLP Applications
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture13-applications.pdf">Overview</a>
-    hw:<a href="https://CS287.github.io/HW4/HW4.pdf">HW 4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
+    hw: <a href="https://CS287.github.io/HW4/HW4.pdf">HW 4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     papers:
   - topic: Section
     subtopic: RNNs
