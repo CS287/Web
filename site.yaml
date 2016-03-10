@@ -85,7 +85,8 @@ lectures:
           cite: "DBLP:journals/jmlr/BengioDVJ03"
         - name: "Mnih and Teh (2012)"
           cite: "MnihT12"
-
+        - name: "Mnih and Kavukcuoglu (2013)"
+          cite: "DBLP:conf/nips/MnihK13"
     hw: <a href="https://CS287.github.io/HW3/HW3.pdf" >HW3</a> (<a href="https://github.com/CS287/HW3" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw3/leaderboard">Kaggle</a>)
   - topic:
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture10-conv.pdf">Convolutions</a>
