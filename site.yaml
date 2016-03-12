@@ -133,15 +133,15 @@ lectures:
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture13-applications.pdf">Applications</a>
     hw: <a href="https://CS287.github.io/HW4/HW4.pdf">HW4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     papers:
-  - topic: Application
-    subtopic: Approximate Search
+  - topic: Structure
+    subtopic: Markov Chains
     hw:
     papers:
 
   - date: Mar. 29
-    topic: Structured Prediction
-    subtopic: Hidden Markov Models
-    hw: HW 5
+    topic: 
+    subtopic: Approximate Search
+    hw: 
     papers:
   - date: Mar. 31
     topic:
@@ -150,7 +150,7 @@ lectures:
     papers:
   - topic: Application
     subtopic: "Coreference"
-    hw:
+    hw: <a href="https://CS287.github.io/HW5/HW5.pdf">HW4</a> (<a href="https://github.com/CS287/HW5" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw5/leaderboard">Kaggle</a>)
     papers:
 
   - topic: Conditional Random Fields
