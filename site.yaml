@@ -130,7 +130,7 @@ lectures:
         - name: "Srivastava et al (2015)"
           cite: "DBLP:journals/corr/SrivastavaGS15"
   - topic: NLP Applications
-    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture13-applications.pdf">Overview</a>
+    subtopic: <a href="https://CS287.github.io/HW3/HW4.pdf" >HW4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     hw: HW 4 (Repo) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     papers:
   - topic: Application
