@@ -1,6 +1,6 @@
 dates: ["Jan. 26", "Jan. 28", "Jan. 29", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 12", "Feb. 16",
         "Feb. 18", "Feb. 23", "Feb. 25", "Mar. 1", "Mar. 3", "Mar. 8", "Mar. 10", 
-        "Mar. 22", "Mar. 24", "Mar. 29", "Mar. 31", "Apr. 5", "Apr. 7", "Apr. 12",
+        "Mar. 22", "Mar. 24", "Mar. 25", "Mar. 29", "Mar. 31", "Apr. 5", "Apr. 7", "Apr. 12",
         "Apr. 14", "Apr. 19", "Apr. 21", "Apr. 26"]
 
 
@@ -133,8 +133,8 @@ lectures:
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture13-applications.pdf">Applications</a>
     hw: <a href="https://CS287.github.io/HW4/HW4.pdf">HW4</a> (<a href="https://github.com/CS287/HW4" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw4/leaderboard">Kaggle</a>)
     papers:
-  - topic: Structure
-    subtopic: Markov Chains
+  - topic: Structure and Search
+    subtopic: Background
     hw:
     papers:
 
@@ -143,6 +143,12 @@ lectures:
     subtopic: Approximate Search
     hw: 
     papers:
+  - date: Mar. 29
+    subtopic: Section <a href="http://nbviewer.jupyter.org/github/CS287/Lectures/blob/gh-pages/notebooks/ElementRNNTutorial.ipynb" >Torch rnn Notes</a>
+    notes: <a href="https://github.com/Element-Research/rnn">Elements rnn</a>
+    hw: 
+    papers:
+ 
   - date: Mar. 31
     topic:
     subtopic: Filtering, Smoothing, Viterbi
