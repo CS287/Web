@@ -140,7 +140,7 @@ lectures:
 
   - date: Mar. 29
     topic: 
-    subtopic: Approximate Search
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture15-dp.pdf">Search Methods</a>
     hw: 
     papers:
   - date: Mar. 29
