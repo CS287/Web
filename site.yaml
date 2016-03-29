@@ -135,39 +135,48 @@ lectures:
     papers:
   - topic: Structure and Search
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture14-search.pdf">Background</a>
-    hw:
+    hw: 
     papers:
-
+      - name: "Ratnaparkhi (1996)"
+        cite: "ratnaparkhi1996maximum"
+      - cite: murphy2012
+        name: "Murphy (2012) &sect; 17.2, 19.5 "
   - date: Mar. 29
     topic: 
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture15-dp.pdf">Search Methods</a>
     hw: 
     papers:
+      - name: "Collins (2002)"
+        cite: "collins2002discriminative"
+
   - date: Mar. 29
     subtopic: Section <a href="http://nbviewer.jupyter.org/github/CS287/Lectures/blob/gh-pages/notebooks/ElementRNNTutorial.ipynb" >Torch rnn Notes</a>
     notes: <a href="https://github.com/Element-Research/rnn">Elements rnn</a>
     hw: 
     papers:
- 
-  - date: Mar. 31
-    topic:
-    subtopic: Filtering, Smoothing, Viterbi
-    hw:
+  - topic: 
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture16-crf.pdf">Marginals</a>
+    hw: 
     papers:
-  - topic: Application
-    subtopic: "Coreference"
+      - cite: murphy2012
+        name: "Murphy (2012) &sect; 17.4 "
+      - name: "Baum and Petrie (2001)"
+        cite: "baum1966statistical"
+  - topic: 
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture17-crf.pdf">CRF</a>
+    hw: 
+    papers:
+      - name: "Lafferty et al (2001)"
+        cite: "DBLP:conf/icml/LaffertyMP01"
+  - topic: Topics
+    subtopic: MT
     hw: <a href="https://CS287.github.io/HW5/HW5.pdf">HW5</a> (<a href="https://github.com/CS287/HW5" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw5/leaderboard">Kaggle</a>)
-    papers:
-
-  - topic: Conditional Random Fields
-    subtopic: Training
-    hw:
     papers:
   - topic:
     subtopic: Inference
     hw:
     papers:
-  - topic: Application
+  - topic: 
     subtopic: Dependency Parsing
     hw:
     papers:
