@@ -169,13 +169,21 @@ lectures:
       - name: "Lafferty et al (2001)"
         cite: "DBLP:conf/icml/LaffertyMP01"
   - topic: Topics
-    subtopic: MT
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture18-smt.pdf">Statistical Machine Translation</a>
     hw: <a href="https://CS287.github.io/HW5/HW5.pdf">HW5</a> (<a href="https://github.com/CS287/HW5" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw5/leaderboard">Kaggle</a>)
     papers:
+      - cite : "DBLP:journals/coling/BrownPPM94"
+        name : "Brown et al (1994)"
+      - cite : "DBLP:conf/acl/PapineniRWZ02"
+        name : "Papineni et al (2002)"
   - topic:
-    subtopic: Inference
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture19-nmt.pdf">Neural Machine Translation
     hw:
     papers:
+      - name: "Sutskever et al (2014)"
+        cite: "DBLP:conf/nips/SutskeverVL14"
+        name: "Bahdanau et al (2015)"
+        cite: "DBLP:journals/corr/BahdanauCB14"
   - topic: 
     subtopic: Dependency Parsing
     hw:
