@@ -182,7 +182,7 @@ lectures:
     papers:
       - name: "Sutskever et al (2014)"
         cite: "DBLP:conf/nips/SutskeverVL14"
-        name: "Bahdanau et al (2015)"
+      - name: "Bahdanau et al (2015)"
         cite: "DBLP:journals/corr/BahdanauCB14"
   - topic: 
     subtopic: Dependency Parsing
