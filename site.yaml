@@ -186,7 +186,7 @@ lectures:
       - name: "Bahdanau et al (2015)"
         cite: "DBLP:journals/corr/BahdanauCB14"
   - topic: 
-    subtopic: Section <a href="" >DP Notes</a>
+    subtopic: Section <a href="https://CS287.github.io/Lectures/dpnlp.pdf" >DP Notes</a>
     hw:
     papers:
   - topic:  Topic
