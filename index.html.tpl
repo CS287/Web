@@ -41,7 +41,7 @@
             <li><a href="#announcements">Announcements</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <li><a href="#grading">Grading</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <!-- <li><a href="#faq">FAQ</a></li> -->
           </ul>
         </div>
       </div>
@@ -141,14 +141,14 @@
       </div>
 
 
-      <div class="row container">
-      <h3 id="faq">FAQ</h3>
-      <p class="container">
-          <ul>
-            <li> <p> </p>
-          </ul>
-      </p>
-      </div>
+      <!-- <div class="row container"> -->
+      <!-- <h3 id="faq">FAQ</h3> -->
+      <!-- <p class="container"> -->
+      <!--     <ul> -->
+      <!--       <li> <p> </p> -->
+      <!--     </ul> -->
+      <!-- </p> -->
+      <!-- </div> -->
 
 
 
