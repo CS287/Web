@@ -189,7 +189,7 @@ lectures:
     subtopic: Section <a href="" >DP Notes</a>
     hw:
     papers:
-  - topic: 
+  - topic:  Topic
     subtopic: Question Answering
     hw:
     papers:
@@ -198,17 +198,17 @@ lectures:
     hw:
     papers:
   - date: 
-    topic: Conclusion 
-    subtopic:
+    topic: Conclusion  
+    subtopic: 
     hw:
     papers:
   - date: May. 3
-    topic: Final Project Presentations
-    subtopic:
+    topic: Final Project
+    subtopic:  Presentations
     hw:
     papers:
   - date: May. 12
-    topic: Final Projects Due
-    subtopic:
+    topic: 
+    subtopic: Projects Due
     hw:
     papers:

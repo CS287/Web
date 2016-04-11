@@ -32,7 +32,7 @@
     <div class="container">
       <div class="panel panel-primary" style="margin-top:10px;background-color:#B75F33;border-color:#000000;">
         <div class="panel-heading" style="background-color:#B75F33;border-color:#B75F33;">
-          <h1>CS287: Statistical Natural Language Processing</h1>
+          <h1>CS287: Natural Language Processing</h1>
           <p class="lead">Harvard University</p>
 
         </div>
