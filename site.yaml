@@ -1,7 +1,7 @@
 dates: ["Jan. 26", "Jan. 28", "Jan. 29", "Feb. 2", "Feb. 4", "Feb. 9", "Feb. 11", "Feb. 12", "Feb. 16",
         "Feb. 18", "Feb. 23", "Feb. 25", "Mar. 1", "Mar. 3", "Mar. 8", "Mar. 10", 
-        "Mar. 22", "Mar. 24", "Mar. 25", "Mar. 29", "Mar. 31", "Apr. 5", "Apr. 7", "Apr. 12",
-        "Apr. 14", "Apr. 19", "Apr. 21", "Apr. 26"]
+        "Mar. 22", "Mar. 24", "Mar. 25", "Mar. 29", "Mar. 31", "Apr. 5", "Apr. 7", "Apr. 8", "Apr. 12",
+        "Apr. 14", "Apr. 19", "May 3", "May 12"]
 
 
 lectures:
@@ -168,6 +168,7 @@ lectures:
     papers:
       - name: "Lafferty et al (2001)"
         cite: "DBLP:conf/icml/LaffertyMP01"
+   
   - topic: Topics
     subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture18-smt.pdf">Statistical Machine Translation</a>
     hw: <a href="https://CS287.github.io/HW5/HW5.pdf">HW5</a> (<a href="https://github.com/CS287/HW5" >Repo</a>) (<a href="https://inclass.kaggle.com/c/cs287-hw5/leaderboard">Kaggle</a>)
@@ -185,25 +186,29 @@ lectures:
       - name: "Bahdanau et al (2015)"
         cite: "DBLP:journals/corr/BahdanauCB14"
   - topic: 
-    subtopic: Dependency Parsing
+    subtopic: Section <a href="" >DP Notes</a>
     hw:
     papers:
-  - topic: Topics
+  - topic: 
+    subtopic: Question Answering
+    hw:
+    papers:
+  - topic: 
+    subtopic: Question Answering
+    hw:
+    papers:
+  - date: 
+    topic: Conclusion 
     subtopic:
     hw:
     papers:
-  - date: Apr. 19
-    topic: Topics
-    subtopic:
-    hw:
-    papers:
-  - date: Apr. 21
-    topic: Guest Lecture
-    subtopic:
-    hw:
-    papers:
-  - date: Apr. 26
+  - date: May. 3
     topic: Final Project Presentations
+    subtopic:
+    hw:
+    papers:
+  - date: May. 12
+    topic: Final Projects Due
     subtopic:
     hw:
     papers:
