@@ -190,18 +190,28 @@ lectures:
     hw:
     papers:
   - topic:  Topic
-    subtopic: Question Answering
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture20-qa1.pdf">QA1 (Semantic Parsing)</a>
     hw:
     papers:
+      - cite: "DBLP:conf/uai/ZettlemoyerC05"
+        name: "Zettlemoyer and Collins (2005)"
+      - cite: "DBLP:journals/aim/FerrucciBCFGKLMNPSW10"
+        name: "Ferrucci et al (2010)"
   - topic: 
-    subtopic: Question Answering
+    subtopic: QA2 (Neural)
     hw:
     papers:
+      - cite: "DBLP:journals/corr/BordesUCW15"
+        name: "Bordes et al (2015)"
+      - cite: "DBLP:conf/nips/HermannKGEKSB15"
+        name: "Hermann et al (2015)"
   - date: 
     topic: Conclusion  
     subtopic: 
     hw:
     papers:
+      - cite: "silver2016mastering"
+        name: "Silver et al (2016)"
   - date: May. 3
     topic: Final Project
     subtopic:  Presentations
