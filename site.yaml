@@ -190,7 +190,7 @@ lectures:
     hw:
     papers:
   - topic:  Topic
-    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture20-qa1.pdf">QA1 (Semantic Parsing)</a>
+    subtopic: <a href="https://CS287.github.io/Lectures/slides/lecture20-qa.pdf">QA1 (Semantic Parsing)</a>
     hw:
     papers:
       - cite: "DBLP:conf/uai/ZettlemoyerC05"
