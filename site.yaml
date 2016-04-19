@@ -206,7 +206,7 @@ lectures:
       - cite: "DBLP:conf/nips/HermannKGEKSB15"
         name: "Hermann et al (2015)"
   - date: 
-    topic: Conclusion  
+    topic: <a href="https://CS287.github.io/Lectures/slides/lecture22-final.pdf">Conclusion</a>
     subtopic: 
     hw:
     papers:
